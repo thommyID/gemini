@@ -1,0 +1,44 @@
+[
+  {
+    "sessionId": "460a330d-1a66-451c-928b-21c10f5923eb",
+    "messageId": 0,
+    "type": "user",
+    "message": "check kenapa disk full",
+    "timestamp": "2026-05-23T14:44:09.430Z"
+  },
+  {
+    "sessionId": "460a330d-1a66-451c-928b-21c10f5923eb",
+    "messageId": 1,
+    "type": "user",
+    "message": "docker system prune -f",
+    "timestamp": "2026-05-23T15:24:57.776Z"
+  },
+  {
+    "sessionId": "460a330d-1a66-451c-928b-21c10f5923eb",
+    "messageId": 2,
+    "type": "user",
+    "message": "jalankan docker",
+    "timestamp": "2026-05-23T15:25:23.637Z"
+  },
+  {
+    "sessionId": "460a330d-1a66-451c-928b-21c10f5923eb",
+    "messageId": 3,
+    "type": "user",
+    "message": "docker system prune -f",
+    "timestamp": "2026-05-23T15:26:44.083Z"
+  },
+  {
+    "sessionId": "460a330d-1a66-451c-928b-21c10f5923eb",
+    "messageId": 4,
+    "type": "user",
+    "message": "hapus",
+    "timestamp": "2026-05-23T15:26:55.949Z"
+  },
+  {
+    "sessionId": "460a330d-1a66-451c-928b-21c10f5923eb",
+    "messageId": 5,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2026-05-23T15:27:41.303Z"
+  }
+]

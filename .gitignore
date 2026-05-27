@@ -1,8 +1,13 @@
 google_accounts.json
 installation_id
-projects.json
-settings.json
 state.json
 trustedFolders.json
-tmp/
-history/
+
+# Ignore noisy/temporary tool outputs but keep chat logs
+**/tool-outputs/
+**/background-processes/
+**/bin/
+
+# Keep git config local if needed, but normally we track the repo config
+.gitconfig
+.gitconfig_system_empty

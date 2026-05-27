@@ -358,4 +358,16 @@ Gunakan format:
 
 ---
 
+## 23. Aturan Backup Memori (Otomatis)
+
+Semua memori, history, dan session info harus disimpan dan di-backup ke Git secara berkala.
+
+**Prosedur Wajib:**
+- **Mulai Sesi:** Lakukan `git pull` untuk sinkronisasi memori terbaru.
+- **Selesai Tugas/Sesi:** Lakukan `git add .`, `git commit -m "backup: session memory update"`, dan `git push` secara otomatis.
+- **Cakupan:** `GEMINI.md`, `history/`, `tmp/**/chats/`, `projects.json`, `settings.json`.
+- **Dilarang:** Jangan pernah commit `google_accounts.json` atau file berisi API Key/Secret.
+
+---
+
 **Selesai. File ini siap di-commit ke repo mana pun.**

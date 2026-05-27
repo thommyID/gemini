@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "/": "project",
+    "/Users/kennedy/Downloads/v3": "v3",
+    "/Users/kennedy/Downloads/files (8)": "files-8",
+    "/Users/kennedy/Downloads/files (9)": "files-9",
+    "/Users/kennedy/Downloads/files (12)": "files-12",
+    "/Users/kennedy/Downloads/files (13)": "files-13",
+    "/Users/kennedy/Downloads/files (13)-mini-stable": "files-13-mini-stable",
+    "/Users/kennedy/Downloads/codex2": "codex2",
+    "/Users/kennedy/Projects/codex": "codex",
+    "/Users/kennedy/Projects/restapi": "restapi",
+    "/Users/kennedy": "kennedy",
+    "/Users/kennedy/.gemini": "gemini"
+  }
+}
