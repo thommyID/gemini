@@ -93,7 +93,10 @@ Fakta di bawah diverifikasi 2026-08-31.
 | Collection | `memory_vectors` — satu koleksi untuk semua project |
 | Scoping | field `project` di dalam dokumen, bukan koleksi per project |
 
-Gemini CLI tidak memiliki hooks otomatis — gunakan panduan manual di bawah.
+Gemini CLI **punya** sistem hooks (`gemini hooks <command>`, terverifikasi pada versi 0.46.0)
+dan mendukung MCP lewat `~/.gemini/settings.json`. Keduanya belum dipasang untuk LME: bentuk
+payload hook Gemini belum dicocokkan dengan kontrak `memory.py`. Sampai terbukti, pakai
+panduan manual di bawah — hook dengan kontrak salah terpasang rapi lalu diam total.
 
 ### Scope ditentukan oleh PATH, bukan isi
 `project_slug()` membaca segmen `/projects/<encoded>/memory/`. Encode cwd project yang sedang
